@@ -1,0 +1,327 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fc;
+}
+
+/* mise ne forme de la forme de la page de login*/
+.authent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 80px;
+    height: 500px;
+    width: 450px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2),
+        -5px -5px 15px rgba(255, 255, 255, 0.8);
+    background-color: white;
+}
+
+form>p {
+    color: #f80707;
+    margin-top: -15px;
+    font-size: 10px;
+    margin-left: 5px;
+    visibility: hidden;
+}
+
+/* mise ne forme de la forme de la page d'inscription*/
+.inscri {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 80px;
+    padding: 20px;
+    height: 700px;
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2),
+        -5px -5px 15px rgba(255, 255, 255, 0.8);
+    background-color: white;
+}
+
+
+
+
+input[type="text"].form-control,input[type="password"].form-control,input[type="email"].form-control {
+    width: 85%;
+    height: 40px;
+}
+.motPass {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 80px;
+    padding: 20px;
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2),
+        -5px -5px 15px rgba(255, 255, 255, 0.8);
+    background-color: white;
+}
+
+
+
+h3 {
+    margin-top: -10px;
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+}
+
+.zone_text {
+    height: 40px;
+    width: 85%;
+    border-radius: 5px;
+    border: 1px rgb(158, 156, 156) solid;
+}
+
+a {
+    color: #4e73df;
+    margin-top: -20px;
+    padding-top: 0px;
+    width: 250px;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: default;
+    color: #375bb7;
+}
+
+.btn {
+    background-color: #4e73df;
+    color: white;
+    border: 0px;
+    height: 40px;
+    width: 75%;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+
+.zone_text:focus {
+    border-color: #4e73df;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(78, 115, 223, 0.2);
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #375bb7;
+}
+
+.champvalide {
+    height: 40px;
+    width: 85%;
+    border-radius: 5px;
+    border: 1px rgb(158, 156, 156) solid;
+}
+
+.champvalide:focus {
+    border-color: #038d16;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(78, 115, 223, 0.2);
+}
+
+.champinvalide {
+    height: 40px;
+    width: 85%;
+    border-radius: 5px;
+    border: 1px rgb(158, 156, 156) solid;
+    border-color: #f80707;
+}
+
+.champinvalide:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(78, 115, 223, 0.2);
+}
+
+div {
+    height: 30px;
+    width: 38px;
+    align-self: flex-end;
+    margin-top: -80px;
+    border: white;
+}
+
+div>img {
+    width: 100%;
+    height: 100%;
+}
+
+.inscri>div {
+    height: 30px;
+    width: 40px;
+    align-self: flex-end;
+    margin-top: -70px;
+    background-color: white;
+    border: white;
+}
+
+.motPass>div {
+    height: 30px;
+    width: 40px;
+    align-self: flex-end;
+    margin-top: -100px;
+    background-color: white;
+    border: white;
+}
+
+/* les images de la page d'inscription responsable et donateur*/
+.img {
+width: 20px;
+height: 20px;    
+}
+
+.choix_inscri{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 80px;
+    padding: 20px;
+    height: 350px;
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2),
+        -5px -5px 15px rgba(255, 255, 255, 0.8);
+    background-color: white;
+}
+
+.choix_inscri>h3 {
+    
+    margin-top: -10px;
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+}
+.choix_inscri>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    align-items: center;
+    
+}
+
+.choix_inscri>div>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+    
+    
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2),
+        -5px -5px 15px rgba(255, 255, 255, 0.8);
+    background-color: white;
+    
+    width: 40%;
+    height: 100%;
+    border: 3px solid black;
+    transition: all 0.3s ease; /* Transition pour l'effet de survol */
+}
+
+
+.choix_inscri > div > div:hover {
+    
+    background-color: #375bb7; /* Nouvelle couleur au survol */
+    width: 45%; /* Agrandissement */
+    height: 110%; /* ou une valeur plus grande si nécessaire */
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3),
+                -8px -8px 20px rgba(255, 255, 255, 0.9);
+
+}
+.choix_inscri > div > div:hover p {
+    color: white; /* Changement de couleur du <p> */
+    transform: scale(1.1); /* Agrandissement du texte */
+}
+
+.choix_inscri>div>div>img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.choix_inscri>div>div>p{
+    margin-top: 5px;
+    margin-bottom: auto;
+    text-align: center;
+    background-color: transparent;
+    font-size: 24px;
+}
+
+
+
+#logo_box{
+    
+    margin-top: 10px;
+    
+    width: 86%;
+    height: 140px;
+    margin-right: auto;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+    
+    border-radius: 5px;
+    border: 1px rgb(158, 156, 156) solid;
+    
+
+}
+
+#logo_box>p{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#logo_box>input{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    margin-left: 20px;
+    
+}
+
+#preview{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    width: 120px;
+    height: 120px;;
+    display: none;
+    border: gold solid 2px;
+    border-radius: 10%;
+
+    margin-left: -20px;
+    margin-top: 10px;
+}
+
+#back-arrow {
+    width: 50px;
+    height: 40px;
+    margin-top: -25px;
+}
+
+.inscri_responsable{
+    height: 1000px;
+    width: 600px;
+}
